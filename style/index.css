@@ -80,11 +80,9 @@ header {
     font-size: 40px;
     line-height: 1.5;
     color: #444;
-    padding: 10px 10px 0px 0px;
     margin-bottom: 0px;
 }
 nav {
-    padding: 0px 10px 10px 0px;
     margin-top: 0px;
     margin-bottom: 0px;
 }
@@ -135,7 +133,7 @@ h2 {
     align-items: center;
 }
 .flex div {
-    margin: 0 3rem;
+    margin: 0 5%;
     align-items: center;
 }
 .focus-image {
@@ -157,4 +155,56 @@ footer {
 }
 footer div button.link-button {
     margin-left: 50px;
+}
+
+@media (max-width: 800px) {
+    .flex div {
+        margin: 2% 5%;
+    }
+}
+@media (max-width: 500px) {
+    header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        padding-left: 0;
+    }
+    nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    button {
+        width: 40%;
+        margin: 0 0;
+    }
+    .flex {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .shrink {
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+    .focus-image {
+        margin: 0;
+        width: 100%;
+    }
+    .flex div {
+        width: 40%;
+        margin: 4% 0;
+    }
+    footer nav {
+        display: none;
+    }
+}
+
+@media (min-width: 1200px) {
+
 }

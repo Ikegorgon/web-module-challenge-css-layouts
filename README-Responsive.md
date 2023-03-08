@@ -36,10 +36,10 @@ New features of a project should occur in a new branch in the same repository. F
 
 Use the checklist below to guide your work today. Your final product should be presentable at mobile, tablet and a desktop-width.
 
-- [ ] Insert a viewport meta tag into the head of the project with these html attributes: content="width=device-width, initial-scale=1"
-- [ ] Introduce max-width media queries into your project at 800px and 500px
-- [ ] Add accessability features to your webpage
-- [ ] Design should closely follow the [mobile wireframe](Wireframes/) given for your chosen layout
+- [x] Insert a viewport meta tag into the head of the project with these html attributes: content="width=device-width, initial-scale=1"
+- [x] Introduce max-width media queries into your project at 800px and 500px
+- [x] Add accessability features to your webpage
+- [x] Design should closely follow the [mobile wireframe](Wireframes/) given for your chosen layout
 
 
 ### Task 3: Stretch Goals
